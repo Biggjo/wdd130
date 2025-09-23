@@ -1,5 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 main {
     max-width: 840px;
+}
+
+nav {
+    background-color: blue;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    color: #eee;
+    padding: 1rem;
+}
+
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
 }
 aside {
     width: 20rem;
@@ -16,9 +36,15 @@ aside img {
     height: auto;
 }
 
+h1 {
+    color: #000;
+}
+
 main img{
     width: 160px;
     height: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 p {
